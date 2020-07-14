@@ -6,7 +6,8 @@
   "scripts": {
     "start-frontend": "cd frontend && npm start",
     "start-server":  "cd server && npm start",
-    "start": "concurrently \"npm run start-server\" \"npm run start-frontend\""
+    "start": "concurrently \"npm run start-server\" \"npm run start-frontend\"",
+    "init-project": "concurrently \"cd frontend && npm install\" \"cd server && npm install\""
   },
   "author": "",
   "license": "ISC",
