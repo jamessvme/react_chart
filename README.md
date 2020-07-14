@@ -8,7 +8,7 @@ Run the command to install dependencies for both end
 ```
 
 ## Run It
-Run the command to install dependencies for both end
+Run it locally
 ```sh
  $npm start
 ```
