@@ -1,0 +1,16 @@
+{
+  "name": "socket-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-frontend": "cd frontend && npm start",
+    "start-server":  "cd server && npm start",
+    "start": "concurrently \"npm run start-server\" \"npm run start-frontend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
